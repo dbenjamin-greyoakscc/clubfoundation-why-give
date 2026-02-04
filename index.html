@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Why Give | The Club Foundation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Every gift to The Club Foundation fuels scholarships, education, research, and outreach that elevate the club management profession." />
+  <meta property="og:title" content="Why Give | The Club Foundation" />
+  <meta property="og:description" content="Your support strengthens the club management profession—funding scholarships, research, and professional development at every career stage." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://clubfoundation.org/why-give" />
+  <meta property="og:image" content="https://clubfoundation.org/assets/og-why-give.jpg" />
+  <!-- Fonts (optional) -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root{
+      --cf-red:#ba1f2e; --cf-slate:#1f2937; --cf-ink:#0f172a; --cf-blue:#0ea5e9;
+      --cf-bg:#f8fafc; --cf-card:#ffffff; --cf-line:#e5e7eb; --cf-emerald:#059669;
+      --radius:14px; --shadow:0 10px 30px rgba(2,8,23,.08);
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; color:var(--cf-ink); margin:0; background:var(--cf-bg); line-height:1.55}
+    a{color:var(--cf-red); text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{background:var(--cf-card); border-bottom:1px solid var(--cf-line); position:sticky; top:0; z-index:20}
+    .wrap{max-width:1200px; margin:0 auto; padding:0 20px}
+    .nav{display:flex; align-items:center; justify-content:space-between; min-height:76px; gap:20px}
+    .brand{display:flex; align-items:center; gap:14px; font-weight:700; color:var(--cf-slate)}
+    .brand img{height:42px; width:auto; display:block}
+    .brand span{font-size:18px}
+    .nav-actions{display:flex; align-items:center; gap:16px; flex-wrap:wrap}
+    .nav a.btn{background:var(--cf-red); color:#fff; padding:10px 16px; border-radius:10px; font-weight:600}
+    .hero{background:linear-gradient(135deg, #0f172a 0%, #1f2937 50%, #0f172a 100%); color:#fff; padding:90px 0; position:relative; overflow:hidden}
+    .hero .wrap{display:grid; grid-template-columns: 1.2fr 1fr; gap:40px}
+    .hero h1{font-size:clamp(32px,4vw,48px); margin:0 0 14px}
+    .hero p{font-size:18px; opacity:.95; margin:0 0 26px}
+    .hero .cta{display:flex; gap:12px; flex-wrap:wrap}
+    .btn-primary{background:var(--cf-red); color:#fff; padding:14px 18px; border-radius:12px; font-weight:700; box-shadow:var(--shadow)}
+    .btn-secondary{background:rgba(255,255,255,.1); color:#fff; padding:14px 18px; border-radius:12px; font-weight:700; border:1px solid rgba(255,255,255,.2)}
+    .muted{opacity:.8}
+    section{padding:70px 0}
+    .kpis{display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:26px}
+    .kpi{background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.2); border-radius:12px; padding:18px}
+    .kpi .num{font-size:28px; font-weight:800}
+    .grid-3{display:grid; grid-template-columns:repeat(3,1fr); gap:24px}
+    .grid-2{display:grid; grid-template-columns:repeat(2,1fr); gap:24px}
+    .card{background:var(--cf-card); border:1px solid var(--cf-line); border-radius:var(--radius); padding:26px; box-shadow:var(--shadow)}
+    h2{font-size:30px; margin:0 0 8px}
+    h3{font-size:20px; margin:0 0 6px}
+    .eyebrow{color:var(--cf-emerald); font-weight:700; text-transform:uppercase; letter-spacing:.06em; font-size:12px}
+    .list{margin:10px 0 0; padding-left:18px}
+    .band{background:#fff; border-top:1px solid var(--cf-line); border-bottom:1px solid var(--cf-line)}
+    .badge{display:inline-block; background:#f1f5f9; border:1px solid var(--cf-line); border-radius:20px; padding:6px 10px; font-size:12px; font-weight:600; color:#334155}
+    .quotes{display:grid; grid-template-columns:repeat(2,1fr); gap:24px}
+    blockquote{margin:0; padding:0}
+    blockquote p{font-size:18px}
+    .name{font-weight:700; margin-top:8px}
+    .faq details{background:var(--cf-card); border:1px solid var(--cf-line); border-radius:12px; padding:18px; margin-bottom:12px}
+    .faq summary{font-weight:700; cursor:pointer}
+    .cta-wide{background:linear-gradient(135deg,#0ea5e9 0,#059669 100%); color:#fff; border-radius:16px; padding:36px; display:flex; align-items:center; justify-content:space-between; gap:24px}
+    footer{background:#0b1220; color:#cbd5e1; padding:36px 0; font-size:14px}
+    @media (max-width:980px){
+      .hero .wrap{grid-template-columns:1fr}
+      .grid-3{grid-template-columns:1fr}
+      .grid-2{grid-template-columns:1fr}
+      .quotes{grid-template-columns:1fr}
+      .kpis{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="/" aria-label="The Club Foundation home">
+      <!-- Swap this IMG path if you host it on your CDN -->
+<img src="https://www.greyoakscc.com/documents/10184/12167/ClubFoundation_Logo4C_Horiz.png/399747cf-b6b5-401a-a9db-3e637b49e51d?t=1770240371572"
+     alt="The Club Foundation Logo" 
+     style="height:42px; width:auto;">
+    </a>
+    <nav class="nav-actions" aria-label="Main">
+      <a href="#impact">Impact</a>
+      <a href="#programs">Programs</a>
+      <a href="#ways-to-give">Ways to Give</a>
+      <a class="btn" href="https://www.clubfoundation.org/Donate" target="_blank" rel="noopener">Donate</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Why Give to The Club Foundation</h1>
+        <p>Every gift strengthens the club management profession—funding scholarships, education, research, and outreach that elevate clubs and communities nationwide.</p>
+        <!-- Mission and role of CF (only 501(c)(3) focused on club<a class="btn-secondary" href="#programs">See Where Your Gift Goes</a>
+        </div>
+        <p class="muted" style="margin-top:10px">The Club Foundation funds the life cycle of a club manager’s career—supporting students, faculty, professionals, chapters, and the industry at large.</p>
+        <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+      </div>
+      <div>
+        <div class="kpis">
+          <div class="kpi">
+            <div class="num">$8.5M+</div>
+            <div>Scholarships & grants awarded since 1988</div>
+            <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+          </div>
+          <div class="kpi">
+            <div class="num">Students → Executives</div>
+            <div>Funding across every career stage</div>
+            <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+          </div>
+          <div class="kpi">
+            <div class="num">Thousands</div>
+            <div>of donors advancing the profession annually</div>
+            <!-- undation.org/donors.html) -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHAT YOUR GIFT MAKES POSSIBLE -->
+  <section id="impact">
+    <div class="wrap">
+      <div class="eyebrow">Your Impact</div>
+      <h2>What Your Gift Makes Possible</h2>
+      <p>Your generosity opens doors for students, advances professional development, and supports research and chapter programming that keep clubs thriving.</p>
+      <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+      <div class="grid-3" style="margin-top:22px">
+        <div class="card">
+          <h3>Scholarships & Career Pathways</h3>
+          <p>From first conference attendance to advanced certifications, your gift funds tuition, travel, and training that accelerate careers.</p>
+          <!-- e.g., Singerling (conference), Kendall (BMI/CCM) -->
+          <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+          <span class="badge">Career Growth</span>
+        </div>
+        <div class="card">
+          <h3>Education, Research & Faculty Development</h3>
+          <p>Support faculty internships and research that translate industry best practices into the classroom and club operations.</p>
+          <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+          <span class="badge">Education</span>
+        </div>
+        <div class="card">
+          <h3>Chapter & Industry Outreach</h3>
+          <p>Help CMAA chapters deliver local workshops and outreach that strengthen the wider club community.</p>
+          <!-- [4](https://clubfoundation.org/documents/financials/2024AnnualReport.pdf) -->
+          <span class="badge">Community</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW GIFTS ARE PUT TO WORK -->
+  <section class="band">
+    <div class="wrap">
+      <div class="eyebrow">How Giving Works</div>
+      <h2>Flexible Support—Immediate Impact & Long‑Term Strength</h2>
+      <div class="grid-2" style="margin-top:16px">
+        <div class="card">
+          <h3>Immediate‑Impact Gifts (Current‑Use)</h3>
+          <p>Your current‑use gift goes to work right away—fueling scholarships, grants, and programs in the same year it’s given. Unrestricted gifts allow leaders to direct funds where needs are greatest; restricted gifts can target specific priorities.</p>
+          <!-- Concept adapted from Cornell's current-use framing -->
+          <!-- [6](https://giving.cornell.edu/why-give/)[3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+        </div>
+        <div class="card">
+          <h3>Foundation‑Building Gifts (Multi‑Year & Legacy)</h3>
+          <p>Multi‑year commitments, endowed funds, and planned gifts sustain a resilient pipeline of education, research, and leadership development for years to come.</p>
+          <!-- Endowed/long-term framing -->
+          <!-- [6](https://giving.cornell.edu/why-give/) -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROGRAMS: SCHOLARSHIPS & GRANTS -->
+  <section id="programs">
+    <div class="wrap">
+      <div class="eyebrow">Programs</div>
+      <h2>Signature Scholarships & Grants</h2>
+      <p>The Club Foundation invests across the career lifecycle—supporting students, faculty, professionals, chapters, and the industry at large.</p>
+      <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+      <div class="grid-3" style="margin-top:22px">
+
+        <div class="card">
+          <h3>Sally Burns Rambo Scholarship</h3>
+          <p>Professional development for female club professionals.</p>
+          <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+        </div>
+
+        <div class="card">
+          <h3>James B. Singerling Scholarship</h3>
+          <p>First‑time attendance at CMAA World Conference (registration + travel support).</p>
+          <!-- [7](https://www.clubfoundation.org/press-releases.html) -->
+        </div>
+
+        <div class="card">
+          <h3>Willmoore H. Kendall Scholarship</h3>
+          <p>BMI tuition support toward the CCM designation.</p>
+          <!-- [7](https://www.clubfoundation.org/press-releases.html) -->
+        </div>
+
+        <!-- REPLACED one previous tile with the EMERY FUND as requested -->
+        <div class="card">
+          <h3>Emery Family Fund</h3>
+          <p>An endowed fund initiated by Donald P. Emery, ECM, CCM, CCE to support The Club Foundation <em>where most needed</em>. Open to contributions from anyone. <a href="https://www.clubfoundation.org/fund-emery.html" target="_blank" rel="noopener">Learn more</a>.</p>
+          <!-- [1](https://www.clubfoundation.org/fund-emery.html)[2](https://www.cmaa.org/news-room/news-room-posts/emery-family-fund-endowed-to-support-the-club-foundation/) -->
+          <span class="badge">Endowed Support</span>
+        </div>
+
+        <div class="card">
+          <h3>LaRocca Family Executive Scholarship</h3>
+          <p>Professional development for managers and their mentees.</p>
+          <!-- /120032815/powerpoint_for_breakout_9.2024.pdf) -->
+        </div>
+
+        <div class="card">
+          <h3>Student Scholarships & Chapter Grants</h3>
+          <p>Joe Perdue Scholarships and Student Chapter Grants support emerging leaders nationwide.</p>
+          <!-- [7](https://www.clubfoundation.org/press-releases.html) -->
+        </div>
+
+        <div class="card">
+          <h3>Faculty Internship & Research</h3>
+          <p>Immersive industry experience and research that inform curriculum and operations.</p>
+          <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+        </div>
+
+        <div class="card">
+          <h3>Chapter Workshop Grants</h3>
+          <p>Funding for chapter‑level training and development.</p>
+          <!-- [8](https://www.gacmaa.org/uploads/1/2/0/0/120032815/powerpoint_for_breakout_9.2024.pdf) -->
+        </div>
+
+        <div class="card">
+          <h3>Outreach & Industry Grants</h3>
+          <p>Support for initiatives that strengthen clubs and communities nationwide.</p>
+          <!-- [4](https://clubfoundation.org/documents/financials/2024AnnualReport.pdf) -->
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACT AT A GLANCE -->
+  <section class="band">
+    <div class="wrap">
+      <div class="eyebrow">By the Numbers</div>
+      <h2>Impact at a Glance</h2>
+      <div class="grid-3" style="margin-top:22px">
+        <div class="card">
+          <h3>$8.5M+ Awarded</h3>
+          <p>Since 1988, donors have powered scholarships and grants to advance the profession. <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) --></p>
+        </div>
+        <div class="card">
+          <h3>Nationwide Reach</h3>
+          <p>Support spans students, faculty, club managers, CMAA chapters, and the industry at large. <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) --></p>
+        </div>
+        <div class="card">
+          <h3>Thousands of Donors</h3>
+          <p>Annual support from individuals, chapters, clubs, partners, and industry stakeholders. <!-- [5](https://www.clubfoundation.org/donors.html)[4](https://clubfoundation.org/documents/financials/2024AnnualReport.pdf) --></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAYS TO GIVE -->
+  <section id="ways-to-give">
+    <div class="wrap">
+      <div class="eyebrow">Ways to Give</div>
+      <h2>Choose the Path That Fits You</h2>
+      <div class="grid-3" style="margin-top:18px">
+        <div class="card">
+          <h3>Online & One‑Time Gifts</h3>
+          <p>Make an immediate gift to support scholarships, research, and chapter initiatives.</p>
+          <!-- [9](https://www.clubfoundation.org/support.html) -->
+        </div>
+        <div class="card">
+          <h3>Monthly & Annual Support</h3>
+          <p>Create reliable funding that helps leaders respond where needs are greatest.</p>
+          <!-- [9](https://www.clubfoundation.org/support.html) -->
+        </div>
+        <div class="card">
+          <h3>Legacy, Endowed & Planned Gifts</h3>
+          <p>Leave a lasting legacy that sustains programs for generations—contribute to existing endowed funds (like the Emery Family Fund) or create your own.</p>
+          <!-- [9](https://www.clubfoundation.org/support.html)[1](https://www.clubfoundation.org/fund-emery.html) -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORIES / TESTIMONIALS -->
+  <section>
+    <div class="wrap">
+      <div class="eyebrow">Real Outcomes</div>
+      <h2>Recipient Perspectives</h2>
+      <div class="quotes" style="margin-top:16px">
+        <blockquote class="card">
+          <p>Faculty internships immerse educators in private club operations—informing curriculum, building networks, and shaping research topics that reflect current industry needs.</p>
+          <div class="name">Faculty Internship Program — Impact Snapshot</div>
+          <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+        </blockquote>
+        <blockquote class="card">
+          <p>Scholarships such as Kendall and Sally Burns Rambo accelerate career milestones—supporting BMI coursework and professional development that lead to CCM achievements.</p>
+          <div class="name">Professional Scholarship Outcomes</div>
+          <!-- [7](https://www.clubfoundation.org/press-releases.html) -->
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="band">
+    <div class="wrap faq">
+      <div class="eyebrow">FAQ</div>
+      <h2>Frequently Asked Questions</h2>
+
+      <details>
+        <summary>Is The Club Foundation a 501(c)(3)?</summary>
+        <p>Yes. The Club Foundation is the charitable subsidiary of the Club Management Association of America (CMAA) and operates as a 501(c)(3) focused solely on the club industry.</p>
+        <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+      </details>
+
+      <details>
+        <summary>How are scholarships and grants allocated?</summary>
+        <p>Programs are evaluated through an allocation process and volunteer committees, including CF board members, CMAA staff, and members.</p>
+        <!-- [8](https://www.gacmaa.org/uploads/1/2/0/0/120032815/powerpoint_for_breakout_9.2024.pdf) -->
+      </details>
+
+      <details>
+        <summary>Can I give to an endowed fund like the Emery Family Fund?</summary>
+        <p>Yes. The Emery Family Fund is open to contributions from anyone; proceeds support the Foundation where most needed.</p>
+        <!-- [1](https://www.clubfoundation.org/fund-emery.html)[2](https://www.cmaa.org/news-room/news-room-posts/emery-family-fund-endowed-to-support-the-club-foundation/) -->
+      </details>
+
+      <details>
+        <summary>Are gifts tax‑deductible?</summary>
+        <p>Gifts to The Club Foundation are generally tax‑deductible in the U.S.; please consult your tax advisor for personal guidance.</p>
+        <!-- 501(c)(3) context -->
+        <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+      </details>
+    </div>
+  </section>
+
+  <!-- BIG CTA -->
+  <section>
+    <div class="wrap">
+      <div class="cta-wide">
+        <div>
+          <h2 style="margin:0 0 8px">Power the Future of Club Leadership</h2>
+          <p style="margin:0">Your gift today funds scholarships, research, and chapter programs that elevate clubs and communities across the country.</p>
+          <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+        </div>
+        <div>
+          <a class="btn-primary" href="https://www.clubfoundation.org/Donate" target="_blank" rel="noopener">Donate Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>&copy; The Club Foundation</div>
+    <div style="margin-top:8px">A charitable subsidiary of the Club Management Association of America (CMAA)</div>
+    <!-- [3](https://www.clubfoundation.org/?trk=public_post_main-feed-card_reshare-text) -->
+  </div>
+</footer>
+
+</body>
+</html>
